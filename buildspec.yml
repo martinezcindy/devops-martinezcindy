@@ -6,4 +6,5 @@ phases:
       - echo Welcome to the PIPELINE
       - mvn clean package
 artifacts:
-  files: target/FrontController.war
+  files: 
+    - target/FrontController.war
